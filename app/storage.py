@@ -1,90 +1,56 @@
 # app/storage.py
-from datetime import datetime
-from oauth2client.service_account import ServiceAccountCredentials
-import gspread
 import os
-from .config import CREDENTIALS_PATH, GOOGLE_SHEETS_ID
+import csv
+from datetime import datetime
 
 class DataStorage:
-    def __init__(self, credentials_path=CREDENTIALS_PATH):
+    def __init__(self):
         """
-        Initialize the DataStorage class with Google Sheets connection.
-        
-        Args:
-            credentials_path (str): Path to the Google Sheets credentials file
+        Initialize the DataStorage class with local CSV storage
         """
-        self.sheet = self._connect_to_sheets(credentials_path)
+        self.recommendations_path = 'data/recommendations.csv'
+        self._initialize_storage()
 
-    def _connect_to_sheets(self, credentials_path):
-        """
-        Establish connection to Google Sheets.
+    def _initialize_storage(self):
+        """Initialize the storage system and create necessary directories/files."""
+        os.makedirs('data', exist_ok=True)
         
-        Args:
-            credentials_path (str): Path to the credentials file
-            
-        Returns:
-            gspread.Worksheet: Connected worksheet or None if connection fails
-        """
-        try:
-            scope = ['https://spreadsheets.google.com/feeds',
-                    'https://www.googleapis.com/auth/drive']
-            
-            credentials = ServiceAccountCredentials.from_json_keyfile_name(
-                credentials_path, 
-                scope
-            )
-            
-            gc = gspread.authorize(credentials)
-            return gc.open_by_key(GOOGLE_SHEETS_ID).sheet1
-            
-        except Exception as e:
-            print(f"Error connecting to Google Sheets: {e}")
-            return None
+        if not os.path.exists(self.recommendations_path):
+            with open(self.recommendations_path, 'w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([
+                    'timestamp', 'user_id', 'description', 
+                    'price_range', 'gift_type', 'interests', 'context'
+                ])
 
     def save_recommendation(self, info):
-        """
-        Save recommendation information to Google Sheets.
-        
-        Args:
-            info (dict): Dictionary containing recommendation information
-            
-        Returns:
-            bool: True if save successful, False otherwise
-        """
-        if self.sheet:
-            try:
-                # Format the data row
-                row = [
+        """Save recommendation information to CSV."""
+        try:
+            with open(self.recommendations_path, 'a', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([
                     datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                    info['user_id'],
-                    info['description'],
-                    info['price_range'],
-                    info['gift_type'],
-                    info['interests'],
-                    info['context']
-                ]
-                
-                # Append the row to the sheet
-                self.sheet.append_row(row)
-                return True
-                
-            except Exception as e:
-                print(f"Error saving to sheet: {e}")
-                return False
-        return False
+                    info.get('user_id', ''),
+                    info.get('description', ''),
+                    info.get('price_range', ''),
+                    info.get('gift_type', ''),
+                    info.get('interests', ''),
+                    info.get('context', '')
+                ])
+            return True
+        except Exception as e:
+            print(f"Error saving recommendation: {e}")
+            return False
 
     def get_recommendations(self):
-        """
-        Retrieve all recommendations from the sheet.
-        
-        Returns:
-            list: List of dictionaries containing recommendation data
-        """
-        if self.sheet:
-            try:
-                records = self.sheet.get_all_records()
-                return records
-            except Exception as e:
-                print(f"Error retrieving recommendations: {e}")
-                return []
-        return []
+        """Retrieve all recommendations from CSV."""
+        try:
+            recommendations = []
+            with open(self.recommendations_path, 'r') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    recommendations.append(row)
+            return recommendations
+        except Exception as e:
+            print(f"Error retrieving recommendations: {e}")
+            return []
