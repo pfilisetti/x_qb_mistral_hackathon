@@ -7,11 +7,9 @@ load_dotenv()
 
 # Base paths
 BASE_DIR = Path(__file__).parent.parent
-CREDENTIALS_PATH = os.getenv('CREDENTIALS_PATH', BASE_DIR / 'credentials.json')
 
 # API Keys and IDs
 MISTRAL_API_KEY = os.getenv('MISTRAL_API_KEY')
-GOOGLE_SHEETS_ID = os.getenv('GOOGLE_SHEETS_ID')
 
 # Logging configuration
 LOGGING_CONFIG = {
