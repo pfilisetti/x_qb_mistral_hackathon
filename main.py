@@ -1,6 +1,7 @@
 import streamlit as st
 import uuid
 import logging.config
+import os
 from datetime import datetime
 from app.chatbot import GiftChatbot
 from app.storage import DataStorage
@@ -14,34 +15,63 @@ logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
 
 def initialize_rag_components():
-    """Initialize RAG system and chatbot."""
+    """Initialize RAG system and chatbot with enhanced error handling."""
     try:
         with st.spinner('Chargement de la base de données des produits...'):
-            # Charger les données
+            # Initialize data loader with debug info
+            logger.info("Starting RAG components initialization")
             data_loader = DataLoader()
+            
+            # Try to get the current working directory and list files
+            cwd = os.getcwd()
+            logger.info(f"Current working directory: {cwd}")
+            logger.info(f"Directory contents: {os.listdir(cwd)}")
+            
+            # Load the data
             gift_data = data_loader.load_amazon_dataset()
             
             if gift_data is None:
-                raise ValueError("Impossible de charger le dataset")
+                logger.error("Failed to load dataset")
+                st.error("Erreur: Impossible de charger la base de données des produits.")
+                return None, None
             
-            # Initialiser RAG
+            logger.info(f"Successfully loaded {len(gift_data)} products")
+            
+            # Initialize RAG engine with progress feedback
             rag_engine = RAGEngine()
-            if not rag_engine.index_products(gift_data):
-                raise ValueError("Échec de l'indexation des produits")
             
-            # Initialiser Chatbot
+            with st.spinner('Indexation des produits...'):
+                if not rag_engine.index_products(gift_data):
+                    logger.error("Failed to index products")
+                    st.error("Erreur: Échec de l'indexation des produits.")
+                    return None, None
+            
+            logger.info("Successfully indexed products")
+            
+            # Initialize Chatbot
             chatbot = GiftChatbot()
             chatbot.set_rag_engine(rag_engine)
             
-            # Stocker les catégories et plages de prix
-            st.session_state.categories = data_loader.get_categories()
-            st.session_state.price_range = data_loader.get_price_range()
+            # Store categories and price range
+            categories = data_loader.get_categories()
+            price_range = data_loader.get_price_range()
+            
+            if categories['main_categories']:
+                st.session_state.categories = categories
+                logger.info(f"Loaded categories: {len(categories['main_categories'])} main categories")
+            
+            if price_range != (0.0, 1000000.0):
+                st.session_state.price_range = price_range
+                logger.info(f"Loaded price range: {price_range}")
             
             return chatbot, data_loader
             
     except Exception as e:
-        logger.error(f"Error initializing RAG components: {str(e)}")
-        st.error("Erreur lors du chargement de la base de données des produits.")
+        logger.error(f"Critical error in RAG initialization: {str(e)}", exc_info=True)
+        st.error("""
+            Erreur lors du chargement de la base de données des produits.
+            Veuillez vérifier que le fichier data_gifts.csv est présent dans le dossier data.
+        """)
         return None, None
 
 def initialize_session_state():
@@ -143,8 +173,8 @@ def main():
         # Initialisation du state
         initialize_session_state()
         
-        # Initialisation des composants
-        storage = DataStorage(credentials_path=CREDENTIALS_PATH)
+        # Initialisation du storage sans credentials
+        storage = DataStorage()
         
         # Initialisation du RAG et chatbot
         if not st.session_state.rag_initialized:
@@ -156,7 +186,7 @@ def main():
         else:
             chatbot = st.session_state.chatbot
             data_loader = st.session_state.data_loader
-        
+
         if not chatbot:
             st.error("Impossible d'initialiser le système de recommandation.")
             return
