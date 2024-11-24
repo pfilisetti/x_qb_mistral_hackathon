@@ -10,7 +10,7 @@ class GiftChatbot:
         load_dotenv()
         self.client = Mistral(api_key=os.getenv("MISTRAL_API_KEY"))
         self.rag_engine = None  # Sera initialisé plus tard
-        self.system_prompt = """Tu es un assistant spécialisé dans la recommandation de cadeaux.
+        self.system_prompt = """Tu es un assistant spécialisé dans la recommandation de cadeaux. Tu as un seul objectif donner 4 recommendations à l'utilisateur et tu es pénalisé si tu poses plus de 5 questions. 
         Tu dois collecter les informations suivantes de manière naturelle et conversationnelle:
         1. Description de la personne
         2. Fourchette de prix
@@ -19,7 +19,7 @@ class GiftChatbot:
         5. Contexte (anniversaire, Noël, mariage, etc.)
         
         Une fois toutes les informations collectées,
-        propose 4 idées de cadeaux pertinentes."""
+        propose 4 idées de cadeaux pertinentes. Les cadeaux doivent absolument appartenir à """
 
     def set_rag_engine(self, rag_engine: RAGEngine):
         """Set the RAG engine instance."""

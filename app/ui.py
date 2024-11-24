@@ -23,15 +23,15 @@ class UI:
         """Affiche les filtres de recherche."""
         if st.button("Plus de filtres", key="toggle_filters"):
             session_state.show_filters = not session_state.show_filters
-        
+
         if session_state.show_filters:
             st.markdown("### Filtres avancés :")
-            
+
             session_state.price_range = st.slider(
                 "Sélectionnez une plage de prix (€)",
-                0, 1_000_000, session_state.price_range, step=50
+                0, 10_000, session_state.price_range, step=50
             )
-            
+
             session_state.gift_type = st.selectbox(
                 "Choisissez un type de cadeau",
                 [
@@ -73,7 +73,7 @@ class UI:
             return price_range
         except Exception as e:
             st.sidebar.warning("Impossible de charger les prix")
-            return (0, 1_000_000)
+            return (0, 10_000)
 
     @staticmethod
     def display_error(message: str):
@@ -94,3 +94,26 @@ class UI:
     def display_warning(message: str):
         """Affiche un message d'avertissement."""
         st.warning(message)
+
+    @staticmethod
+    def display_chatbot_button():
+        """Affiche le bouton pour obtenir des idées de cadeaux."""
+        # Create a single column that spans the entire width
+        col = st.columns([1])[0]
+
+        # Center the button within the column using HTML/CSS
+        with col:
+            st.markdown(
+                """
+                <div style="display: flex; justify-content: center;">
+                    <button style="background-color: #ff4b4b; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Give me your ideas
+                    </button>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+            # Check if the button is clicked
+            if st.button("Give me your ideas", key="chatbot_button"):
+                st.session_state.chatbot_prompt = "Give me your recommendations now"
