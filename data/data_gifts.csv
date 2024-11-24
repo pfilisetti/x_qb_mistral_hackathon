@@ -1,0 +1,503 @@
+name_of_the_product;main_category;sub_category;ratings;no_of_ratings;discounted_price;actual_price
+The Great Gatsby;Books;Classic Literature;4.5;1200;8.99;12.99
+To Kill a Mockingbird;Books;Classic Literature;4.8;1500;6.99;9.99
+1984;Books;Classic Literature;4.6;1450;7.99;10.99
+Pride and Prejudice;Books;Classic Literature;4.7;1300;5.99;8.99
+Moby Dick;Books;Classic Literature;4.4;1100;6.99;9.99
+Jane Eyre;Books;Classic Literature;4.6;1250;7.99;10.99
+Wuthering Heights;Books;Classic Literature;4.5;1200;6.99;9.99
+The Catcher in the Rye;Books;Classic Literature;4.3;1000;7.99;10.99
+The Odyssey;Books;Classic Literature;4.7;1350;8.99;12.99
+The Scarlet Letter;Books;Classic Literature;4.6;1200;7.99;10.99
+The Adventures of Huckleberry Finn;Books;Classic Literature;4.5;1150;6.99;9.99
+The Grapes of Wrath;Books;Classic Literature;4.7;1300;7.99;10.99
+The Sun Also Rises;Books;Classic Literature;4.6;1250;8.99;12.99
+The Old Man and the Sea;Books;Classic Literature;4.8;1400;6.99;9.99
+The Sound and the Fury;Books;Classic Literature;4.5;1100;7.99;10.99
+iPhone 14;Electronics;Smartphones;4.8;5000;799.99;999.99
+Samsung Galaxy S21;Electronics;Smartphones;4.7;4000;699.99;899.99
+Google Pixel 6;Electronics;Smartphones;4.6;3500;599.99;799.99
+OnePlus 9;Electronics;Smartphones;4.7;3450;649.99;799.99
+Xiaomi Mi 11;Electronics;Smartphones;4.6;3300;549.99;699.99
+Sony Xperia 1 III;Electronics;Smartphones;4.5;3200;899.99;1099.99
+Huawei P40 Pro;Electronics;Smartphones;4.7;3100;749.99;899.99
+LG Velvet;Electronics;Smartphones;4.6;3000;599.99;749.99
+Motorola Edge;Electronics;Smartphones;4.5;2900;549.99;699.99
+Nokia 8.3;Electronics;Smartphones;4.7;2800;499.99;649.99
+Oppo Find X3 Pro;Electronics;Smartphones;4.6;2700;899.99;1099.99
+Realme GT;Electronics;Smartphones;4.5;2600;499.99;649.99
+Vivo X60 Pro;Electronics;Smartphones;4.7;2500;699.99;849.99
+Poco F3;Electronics;Smartphones;4.6;2400;349.99;449.99
+The Legend of Zelda: Breath of the Wild;Video Games;Adventure;4.9;3000;49.99;59.99
+Red Dead Redemption 2;Video Games;Adventure;4.8;2900;39.99;49.99
+The Witcher 3: Wild Hunt;Video Games;Adventure;4.7;2800;29.99;39.99
+God of War;Video Games;Adventure;4.9;2700;29.99;39.99
+Horizon Zero Dawn;Video Games;Adventure;4.8;2600;19.99;29.99
+Uncharted 4: A Thief's End;Video Games;Adventure;4.7;2500;19.99;29.99
+Assassin's Creed Odyssey;Video Games;Adventure;4.6;2400;29.99;39.99
+Shadow of the Tomb Raider;Video Games;Adventure;4.8;2300;29.99;39.99
+Far Cry 5;Video Games;Adventure;4.7;2200;19.99;29.99
+Tomb Raider;Video Games;Adventure;4.9;2100;19.99;29.99
+Middle-earth: Shadow of War;Video Games;Adventure;4.8;2000;19.99;29.99
+Batman: Arkham Knight;Video Games;Adventure;4.7;1900;19.99;29.99
+Days Gone;Video Games;Adventure;4.6;1800;19.99;29.99
+Control;Video Games;Adventure;4.8;1700;19.99;29.99
+Death Stranding;Video Games;Adventure;4.7;1600;29.99;39.99
+Paris City Break;Travel;City Breaks;4.7;800;399.99;499.99
+New York City Break;Travel;City Breaks;4.6;900;449.99;549.99
+London City Break;Travel;City Breaks;4.7;850;349.99;449.99
+Rome City Break;Travel;City Breaks;4.6;820;399.99;499.99
+Barcelona City Break;Travel;City Breaks;4.7;800;349.99;449.99
+Amsterdam City Break;Travel;City Breaks;4.6;780;399.99;499.99
+Berlin City Break;Travel;City Breaks;4.7;750;349.99;449.99
+Prague City Break;Travel;City Breaks;4.6;720;399.99;499.99
+Vienna City Break;Travel;City Breaks;4.7;700;349.99;449.99
+Lisbon City Break;Travel;City Breaks;4.6;680;399.99;499.99
+Copenhagen City Break;Travel;City Breaks;4.7;650;349.99;449.99
+Budapest City Break;Travel;City Breaks;4.6;620;399.99;499.99
+Dublin City Break;Travel;City Breaks;4.7;600;349.99;449.99
+Edinburgh City Break;Travel;City Breaks;4.6;580;399.99;499.99
+Stockholm City Break;Travel;City Breaks;4.7;550;349.99;449.99
+North Face Jacket;Outdoor Equipment;Jackets;4.6;1500;149.99;199.99
+Patagonia Down Sweater;Outdoor Equipment;Jackets;4.6;1400;229.99;279.99
+Columbia Rain Jacket;Outdoor Equipment;Jackets;4.5;1300;99.99;129.99
+Marmot PreCip Jacket;Outdoor Equipment;Jackets;4.5;1250;99.99;129.99
+Arc'teryx Atom LT Hoody;Outdoor Equipment;Jackets;4.7;1200;249.99;299.99
+The North Face Thermoball Eco Jacket;Outdoor Equipment;Jackets;4.6;1150;199.99;249.99
+Mountain Hardwear Ghost Whisperer 2;Outdoor Equipment;Jackets;4.5;1100;299.99;349.99
+Black Diamond First Light Hoody;Outdoor Equipment;Jackets;4.7;1050;249.99;299.99
+Rab Microlight Alpine Jacket;Outdoor Equipment;Jackets;4.6;1000;229.99;279.99
+Mammut Rainspeed Jacket;Outdoor Equipment;Jackets;4.5;950;199.99;249.99
+Salomon XA Pro 3D GTX;Outdoor Equipment;Jackets;4.7;900;149.99;199.99
+Haglofs L.I.M Barrier Pro Jacket;Outdoor Equipment;Jackets;4.6;850;249.99;299.99
+Berghaus Extrem 7000 Hoody;Outdoor Equipment;Jackets;4.5;800;299.99;349.99
+Montane Spine Jacket;Outdoor Equipment;Jackets;4.7;750;249.99;299.99
+Helly Hansen Odin Mountain Infinity Shell Jacket;Outdoor Equipment;Jackets;4.6;700;399.99;449.99
+Instant Pot Duo;Home Appliances;Kitchen Appliances;4.7;2000;89.99;119.99
+Crock-Pot Slow Cooker;Home Appliances;Kitchen Appliances;4.6;1900;49.99;69.99
+Breville Barista Express;Home Appliances;Kitchen Appliances;4.7;2400;599.99;699.99
+KitchenAid Artisan Stand Mixer;Home Appliances;Kitchen Appliances;4.8;2500;279.99;379.99
+Nespresso VertuoPlus;Home Appliances;Kitchen Appliances;4.7;2350;149.99;199.99
+Cuisinart Food Processor;Home Appliances;Kitchen Appliances;4.6;1850;99.99;129.99
+De'Longhi Magnifica;Home Appliances;Kitchen Appliances;4.7;2320;699.99;799.99
+Vitamix 5200 Blender;Home Appliances;Kitchen Appliances;4.8;2200;449.99;499.99
+Ninja Foodi 9-in-1;Home Appliances;Kitchen Appliances;4.7;2100;229.99;279.99
+Hamilton Beach Slow Cooker;Home Appliances;Kitchen Appliances;4.6;2000;49.99;69.99
+Black+Decker Toaster Oven;Home Appliances;Kitchen Appliances;4.5;1900;49.99;69.99
+Oster Belgian Waffle Maker;Home Appliances;Kitchen Appliances;4.7;1800;29.99;39.99
+T-fal Initiatives Cookware Set;Home Appliances;Kitchen Appliances;4.6;1700;99.99;129.99
+Cuisinart Griddler;Home Appliances;Kitchen Appliances;4.5;1600;79.99;99.99
+Fitbit Charge 5;Wearable Technology;Fitness Trackers;4.4;1800;129.99;149.99
+Garmin Forerunner 245;Wearable Technology;Fitness Trackers;4.5;1700;249.99;299.99
+Samsung Galaxy Watch 4;Wearable Technology;Smartwatches;4.5;1550;249.99;299.99
+Fossil Gen 5 Smartwatch;Wearable Technology;Smartwatches;4.4;1600;199.99;249.99
+Apple Watch Series 7;Wearable Technology;Smartwatches;4.8;2000;399.99;499.99
+Garmin Vivoactive 4;Wearable Technology;Smartwatches;4.7;1900;299.99;349.99
+Fitbit Versa 3;Wearable Technology;Smartwatches;4.6;1800;229.99;279.99
+Samsung Galaxy Fit 2;Wearable Technology;Fitness Trackers;4.5;1700;119.99;149.99
+Garmin Vivosmart 4;Wearable Technology;Fitness Trackers;4.4;1600;99.99;129.99
+Fitbit Inspire 2;Wearable Technology;Fitness Trackers;4.7;1500;99.99;129.99
+Amazon Halo Band;Wearable Technology;Fitness Trackers;4.6;1400;99.99;129.99
+Withings Steel HR;Wearable Technology;Hybrid Smartwatches;4.5;1300;179.99;229.99
+Garmin Vivomove 3;Wearable Technology;Hybrid Smartwatches;4.4;1200;199.99;249.99
+Fossil Hybrid HR;Wearable Technology;Hybrid Smartwatches;4.7;1100;195.99;245.99
+Skagen Jorn Hybrid Smartwatch;Wearable Technology;Hybrid Smartwatches;4.6;1000;175.99;225.99
+Bose QuietComfort 35 II;Audio;Headphones;4.6;2500;299.99;349.99
+Sony WH-1000XM4;Audio;Headphones;4.7;2300;279.99;349.99
+Beats Studio3;Audio;Headphones;4.5;2200;279.99;349.99
+Sennheiser Momentum 3;Audio;Headphones;4.6;2100;349.99;399.99
+Bose SoundLink Revolve;Audio;Portable Speakers;4.7;2150;179.99;229.99
+JBL Flip 5;Audio;Portable Speakers;4.6;2050;99.99;129.99
+Sonos Move;Audio;Portable Speakers;4.7;1950;399.99;449.99
+UE Wonderboom 2;Audio;Portable Speakers;4.5;1850;79.99;99.99
+Marshall Stockwell II;Audio;Portable Speakers;4.6;1750;229.99;279.99
+Anker Soundcore Motion+;Audio;Portable Speakers;4.7;1650;99.99;129.99
+Bang & Olufsen Beoplay A1;Audio;Portable Speakers;4.6;1550;249.99;299.99
+Harman Kardon Onyx Studio 6;Audio;Portable Speakers;4.5;1450;199.99;249.99
+Bose SoundLink Micro;Audio;Portable Speakers;4.7;1350;99.99;129.99
+JBL Charge 4;Audio;Portable Speakers;4.6;1250;149.99;179.99
+Sony SRS-XB33;Audio;Portable Speakers;4.5;1150;149.99;179.99
+Canon EOS Rebel T7;Cameras;DSLR;4.5;1200;449.99;499.99
+Nikon D3500;Cameras;DSLR;4.6;1050;599.99;699.99
+Canon EOS M50;Cameras;Mirrorless;4.6;1020;649.99;749.99
+Sony Alpha a6100;Cameras;Mirrorless;4.6;1020;649.99;749.99
+Fujifilm X-T4;Cameras;Mirrorless;4.7;1000;1699.99;1799.99
+Olympus OM-D E-M10 Mark IV;Cameras;Mirrorless;4.6;980;699.99;799.99
+Panasonic Lumix GH5;Cameras;Mirrorless;4.5;960;1499.99;1599.99
+Sony Alpha a7 III;Cameras;Mirrorless;4.8;940;1999.99;2099.99
+Canon EOS R6;Cameras;Mirrorless;4.7;920;2499.99;2599.99
+Nikon Z6 II;Cameras;Mirrorless;4.6;900;1999.99;2099.99
+Fujifilm X-S10;Cameras;Mirrorless;4.5;880;999.99;1099.99
+Olympus Tough TG-6;Cameras;Compact;4.7;860;399.99;449.99
+Sony RX100 VII;Cameras;Compact;4.6;840;1199.99;1299.99
+Canon PowerShot G7 X Mark III;Cameras;Compact;4.5;820;749.99;799.99
+Panasonic Lumix LX100 II;Cameras;Compact;4.7;800;899.99;999.99
+Nikon COOLPIX W300;Cameras;Compact;4.6;780;389.99;439.99
+Nike Air Max 270;Shoes;Athletic Shoes;4.7;3000;129.99;159.99
+Adidas Ultraboost 21;Shoes;Athletic Shoes;4.6;2800;149.99;179.99
+New Balance Fresh Foam 1080v11;Shoes;Athletic Shoes;4.7;2700;129.99;159.99
+Asics Gel-Nimbus 23;Shoes;Athletic Shoes;4.7;2650;139.99;169.99
+Brooks Ghost 13;Shoes;Athletic Shoes;4.6;2600;129.99;159.99
+Saucony Kinvara 12;Shoes;Athletic Shoes;4.5;2550;109.99;139.99
+Mizuno Wave Rider 24;Shoes;Athletic Shoes;4.7;2500;129.99;159.99
+Hoka One One Clifton 7;Shoes;Athletic Shoes;4.6;2450;129.99;159.99
+Puma Deviate Nitro;Shoes;Athletic Shoes;4.5;2400;119.99;149.99
+Reebok Floatride Energy 3;Shoes;Athletic Shoes;4.7;2350;99.99;129.99
+Under Armour HOVR Machina 2;Shoes;Athletic Shoes;4.6;2300;149.99;179.99
+Salomon Speedcross 5;Shoes;Athletic Shoes;4.5;2250;129.99;159.99
+Merrel Moab 2 Vent;Shoes;Athletic Shoes;4.7;2200;109.99;139.99
+Keen Targhee III;Shoes;Athletic Shoes;4.6;2150;139.99;169.99
+Columbia Newton Ridge Plus II;Shoes;Athletic Shoes;4.5;2100;89.99;119.99
+Lego Star Wars Millennium Falcon;Toys;Building Sets;4.8;2000;159.99;199.99
+Lego Technic Lamborghini Sián;Toys;Building Sets;4.8;1820;159.99;199.99
+Lego Creator Expert Assembly Square;Toys;Building Sets;4.8;1850;239.99;279.99
+Lego Star Wars AT-AT;Toys;Building Sets;4.8;1820;159.99;199.99
+Lego Harry Potter Hogwarts Castle;Toys;Building Sets;4.7;1800;399.99;449.99
+Lego Marvel Super Heroes Avengers Tower Battle;Toys;Building Sets;4.6;1750;89.99;119.99
+Lego Friends Heartlake City Resort;Toys;Building Sets;4.7;1700;99.99;129.99
+Lego City Police Station;Toys;Building Sets;4.6;1650;99.99;129.99
+Lego Ninjago City Gardens;Toys;Building Sets;4.8;1600;299.99;349.99
+Lego Disney Castle;Toys;Building Sets;4.7;1550;349.99;399.99
+Lego Ideas Tree House;Toys;Building Sets;4.6;1500;199.99;249.99
+Lego Architecture Statue of Liberty;Toys;Building Sets;4.7;1450;119.99;149.99
+Lego Creator Expert Roller Coaster;Toys;Building Sets;4.8;1400;379.99;429.99
+Lego Star Wars Death Star;Toys;Building Sets;4.9;1350;499.99;549.99
+Lego Marvel Super Heroes The Milano vs. The Abilisk;Toys;Building Sets;4.6;1300;49.99;59.99
+Amazon Echo Dot (4th Gen);Smart Home;Smart Speakers;4.6;5000;29.99;49.99
+Google Nest Mini (2nd Gen);Smart Home;Smart Speakers;4.6;4750;39.99;49.99
+Amazon Echo Show 8;Smart Home;Smart Displays;4.6;4800;99.99;129.99
+Google Nest Hub (2nd Gen);Smart Home;Smart Displays;4.5;4500;89.99;129.99
+Philips Hue White and Color Ambiance Starter Kit;Smart Home;Smart Lighting;4.7;4200;199.99;249.99
+Ring Video Doorbell 3;Smart Home;Smart Doorbells;4.6;4000;179.99;199.99
+Arlo Pro 4 Spotlight Camera;Smart Home;Security Cameras;4.5;3800;199.99;249.99
+Nest Learning Thermostat;Smart Home;Smart Thermostats;4.7;3600;249.99;299.99
+Samsung Galaxy Tab S7;Tablets;Android Tablets;4.7;1500;499.99;599.99
+Lenovo Tab P11 Pro;Tablets;Android Tablets;4.7;1320;399.99;499.99
+Microsoft Surface Pro 7;Tablets;Windows Tablets;4.7;1350;749.99;899.99
+Apple iPad Air (4th Gen);Tablets;iOS Tablets;4.8;1400;549.99;599.99
+Dyson Cyclone V10;Vacuums;Cordless Vacuums;4.5;1800;499.99;599.99
+Shark Navigator Lift-Away;Vacuums;Upright Vacuums;4.4;1700;149.99;199.99
+Miele Complete C3;Vacuums;Canister Vacuums;4.5;1620;599.99;699.99
+Dyson Ball Animal 2;Vacuums;Upright Vacuums;4.5;1600;399.99;499.99
+iRobot Roomba i7+;Vacuums;Robot Vacuums;4.6;1550;799.99;899.99
+Bissell CrossWave Pet Pro;Vacuums;Wet/Dry Vacuums;4.5;1500;299.99;349.99
+Hoover WindTunnel 3;Vacuums;Upright Vacuums;4.4;1450;149.99;199.99
+Eureka Mighty Mite;Vacuums;Canister Vacuums;4.5;1400;79.99;99.99
+Black+Decker Dustbuster;Vacuums;Handheld Vacuums;4.6;1350;49.99;69.99
+Dyson V8 Animal;Vacuums;Cordless Vacuums;4.7;1300;349.99;399.99
+Shark ION F80;Vacuums;Cordless Vacuums;4.6;1250;299.99;349.99
+Bissell PowerFresh Steam Mop;Vacuums;Steam Mops;4.5;1200;89.99;119.99
+Hoover Power Scrub Deluxe;Vacuums;Carpet Cleaners;4.7;1150;149.99;179.99
+Bissell SpotClean Pro;Vacuums;Portable Carpet Cleaners;4.6;1100;129.99;159.99
+Shark Rotator Powered Lift-Away;Vacuums;Upright Vacuums;4.5;1050;299.99;349.99
+Harry Potter and the Sorcerer's Stone;Books;Fantasy;4.8;12000;8.99;12.99
+The Hobbit;Books;Fantasy;4.7;11500;9.99;14.99
+The Name of the Wind;Books;Fantasy;4.6;11000;10.99;15.99
+A Game of Thrones;Books;Fantasy;4.7;12500;11.99;16.99
+The Way of Kings;Books;Fantasy;4.8;13000;12.99;17.99
+The Final Empire;Books;Fantasy;4.7;12200;10.99;15.99
+The Blade Itself;Books;Fantasy;4.6;11800;9.99;14.99
+Gardens of the Moon;Books;Fantasy;4.7;12100;11.99;16.99
+Assassin's Apprentice;Books;Fantasy;4.8;12300;12.99;17.99
+The Lies of Locke Lamora;Books;Fantasy;4.7;11900;10.99;15.99
+The Black Company;Books;Fantasy;4.6;11600;9.99;14.99
+The Dark Tower;Books;Fantasy;4.8;12400;11.99;16.99
+The Sword of Truth;Books;Fantasy;4.7;12700;12.99;17.99
+The Kingkiller Chronicle;Books;Fantasy;4.8;13100;13.99;18.99
+The Stormlight Archive;Books;Fantasy;4.9;13500;14.99;19.99
+iPhone 13;Phones;Smartphones;4.8;15000;799.99;999.99
+Samsung Galaxy S21;Phones;Smartphones;4.7;14500;699.99;899.99
+Google Pixel 6;Phones;Smartphones;4.6;14000;599.99;799.99
+OnePlus 9;Phones;Smartphones;4.7;14200;649.99;849.99
+Xiaomi Mi 11;Phones;Smartphones;4.6;13800;549.99;749.99
+Sony Xperia 1 III;Phones;Smartphones;4.8;14700;899.99;1099.99
+Huawei P40;Phones;Smartphones;4.7;14100;699.99;899.99
+LG Velvet;Phones;Smartphones;4.6;13900;599.99;799.99
+Motorola Edge;Phones;Smartphones;4.7;14300;549.99;749.99
+Nokia 8.3;Phones;Smartphones;4.6;13700;499.99;699.99
+Oppo Find X3;Phones;Smartphones;4.8;14900;749.99;949.99
+Realme GT;Phones;Smartphones;4.7;14400;449.99;649.99
+Vivo X60 Pro;Phones;Smartphones;4.6;14600;599.99;799.99
+Poco F3;Phones;Smartphones;4.7;14800;349.99;549.99
+Tetris Effect;Video Games;Puzzle;4.8;10000;29.99;39.99
+Portal 2;Video Games;Puzzle;4.7;9500;19.99;29.99
+The Witness;Video Games;Puzzle;4.6;9000;24.99;34.99
+Fe;Video Games;Puzzle;4.7;9200;14.99;19.99
+Inside;Video Games;Puzzle;4.8;9700;19.99;29.99
+Baba Is You;Video Games;Puzzle;4.7;9400;14.99;19.99
+Return of the Obra Dinn;Video Games;Puzzle;4.6;9100;19.99;29.99
+Celeste;Video Games;Puzzle;4.8;9900;19.99;29.99
+Gris;Video Games;Puzzle;4.7;9300;14.99;19.99
+Limbo;Video Games;Puzzle;4.6;9600;9.99;14.99
+Oxenfree;Video Games;Puzzle;4.7;9800;9.99;14.99
+The Talos Principle;Video Games;Puzzle;4.8;9900;24.99;34.99
+Her Story;Video Games;Puzzle;4.7;9700;5.99;9.99
+The Room;Video Games;Puzzle;4.6;9500;4.99;9.99
+Paris City Break;Travel Ideas;City Breaks;4.7;8000;549.99;699.99
+New York City Break;Travel Ideas;City Breaks;4.6;7500;599.99;749.99
+London City Break;Travel Ideas;City Breaks;4.7;8200;549.99;699.99
+Rome City Break;Travel Ideas;City Breaks;4.6;7800;599.99;749.99
+Barcelona City Break;Travel Ideas;City Breaks;4.7;8100;549.99;699.99
+Amsterdam City Break;Travel Ideas;City Breaks;4.6;7700;599.99;749.99
+Berlin City Break;Travel Ideas;City Breaks;4.7;8300;549.99;699.99
+Prague City Break;Travel Ideas;City Breaks;4.6;7900;599.99;749.99
+Vienna City Break;Travel Ideas;City Breaks;4.7;8400;549.99;699.99
+Lisbon City Break;Travel Ideas;City Breaks;4.6;7600;599.99;749.99
+Copenhagen City Break;Travel Ideas;City Breaks;4.7;8500;549.99;699.99
+Budapest City Break;Travel Ideas;City Breaks;4.6;8000;599.99;749.99
+Dublin City Break;Travel Ideas;City Breaks;4.7;8600;549.99;699.99
+Edinburgh City Break;Travel Ideas;City Breaks;4.6;7400;599.99;749.99
+Stockholm City Break;Travel Ideas;City Breaks;4.7;8700;549.99;699.99
+The North Face Summit Series;Outdoor Equipment;Jackets;4.8;12000;299.99;399.99
+Patagonia Topley Jacket;Outdoor Equipment;Jackets;4.7;11500;249.99;349.99
+Columbia OutDry Ex Gold Tech Shell;Outdoor Equipment;Jackets;4.6;11000;199.99;299.99
+Marmot PreCip Jacket;Outdoor Equipment;Jackets;4.7;12500;99.99;149.99
+Arc'teryx Beta AR Jacket;Outdoor Equipment;Jackets;4.8;13000;399.99;499.99
+Mountain Hardwear Stretch Ozonic Jacket;Outdoor Equipment;Jackets;4.7;12200;199.99;299.99
+Black Diamond StormLine Stretch Rain Shell;Outdoor Equipment;Jackets;4.6;11800;149.99;249.99
+Rab Kinetic Plus Jacket;Outdoor Equipment;Jackets;4.7;12100;249.99;349.99
+Mammut Rainshell Jacket;Outdoor Equipment;Jackets;4.8;12300;199.99;299.99
+Salomon Bonatti WP Jacket;Outdoor Equipment;Jackets;4.7;11900;149.99;249.99
+Haglofs L.I.M GTX Jacket;Outdoor Equipment;Jackets;4.6;11600;249.99;349.99
+Berghaus Deluge Pro Jacket;Outdoor Equipment;Jackets;4.7;12400;99.99;199.99
+Montane Minimus 777 Jacket;Outdoor Equipment;Jackets;4.8;12700;199.99;299.99
+Helly Hansen Odin Stretch Hooded Jacket;Outdoor Equipment;Jackets;4.9;13100;249.99;349.99
+Instant Pot Duo 7-in-1;Home Appliances;Kitchen Appliances;4.8;15000;99.99;149.99
+Crock-Pot 6-Quart Programmable Slow Cooker;Home Appliances;Kitchen Appliances;4.7;14500;59.99;89.99
+Breville Barista Express;Home Appliances;Kitchen Appliances;4.6;14000;599.99;799.99
+KitchenAid Artisan Stand Mixer;Home Appliances;Kitchen Appliances;4.8;15500;379.99;479.99
+Nespresso VertuoPlus;Home Appliances;Kitchen Appliances;4.7;14900;199.99;299.99
+Cuisinart Food Processor;Home Appliances;Kitchen Appliances;4.6;14200;99.99;149.99
+De'Longhi Magnifica Super Automatic Espresso Machine;Home Appliances;Kitchen Appliances;4.8;15200;799.99;999.99
+Vitamix 5200 Blender;Home Appliances;Kitchen Appliances;4.9;15800;449.99;549.99
+Ninja Foodi 9-in-1;Home Appliances;Kitchen Appliances;4.7;14700;199.99;299.99
+Hamilton Beach 6-Speed Electric Hand Mixer;Home Appliances;Kitchen Appliances;4.6;14400;29.99;49.99
+Black+Decker 12-Cup Programmable Coffee Maker;Home Appliances;Kitchen Appliances;4.7;14600;49.99;69.99
+Oster Belgian Waffle Maker;Home Appliances;Kitchen Appliances;4.6;14100;29.99;49.99
+T-fal Initiatives Nonstick Dishwasher Safe Cookware Set;Home Appliances;Kitchen Appliances;4.8;15300;99.99;149.99
+Cuisinart 14-Cup Food Processor;Home Appliances;Kitchen Appliances;4.7;14800;149.99;199.99
+Fitbit Charge 4;Wearable Technology;Fitness Trackers;4.8;13000;129.99;149.99
+Garmin Forerunner 245;Wearable Technology;Fitness Trackers;4.7;12500;249.99;299.99
+Samsung Galaxy Fit;Wearable Technology;Fitness Trackers;4.6;12000;99.99;129.99
+Fossil Gen 5 Smartwatch;Wearable Technology;Smartwatches;4.7;13500;249.99;299.99
+Apple Watch Series 6;Wearable Technology;Smartwatches;4.8;14000;399.99;499.99
+Garmin Vivoactive 4;Wearable Technology;Smartwatches;4.7;13200;299.99;349.99
+Fitbit Versa 3;Wearable Technology;Smartwatches;4.6;12800;199.99;249.99
+Samsung Galaxy Watch 3;Wearable Technology;Smartwatches;4.8;13800;249.99;299.99
+Garmin Venu;Wearable Technology;Smartwatches;4.7;13400;299.99;349.99
+Fitbit Inspire 2;Wearable Technology;Fitness Trackers;4.6;12600;99.99;129.99
+Amazon Halo Band;Wearable Technology;Fitness Trackers;4.7;13100;99.99;129.99
+Withings Steel HR;Wearable Technology;Hybrid Smartwatches;4.8;12900;179.99;229.99
+Garmin Vivomove 3;Wearable Technology;Hybrid Smartwatches;4.7;12700;199.99;249.99
+Fossil Hybrid Smartwatch;Wearable Technology;Hybrid Smartwatches;4.6;12300;179.99;229.99
+Skagen Jorn Hybrid Smartwatch;Wearable Technology;Hybrid Smartwatches;4.7;12400;149.99;199.99
+Bose QuietComfort 45;Audio;Headphones;4.8;14000;279.99;329.99
+Sony WH-1000XM4;Audio;Headphones;4.7;13500;299.99;349.99
+Beats Studio3 Wireless;Audio;Headphones;4.6;13000;249.99;299.99
+Sennheiser Momentum 3;Audio;Headphones;4.8;14500;349.99;399.99
+Bose SoundLink Revolve+;Audio;Portable Speakers;4.7;12000;199.99;249.99
+JBL Flip 5;Audio;Portable Speakers;4.6;11500;99.99;129.99
+Sonos Move;Audio;Portable Speakers;4.8;13000;399.99;449.99
+UE Wonderboom 2;Audio;Portable Speakers;4.7;12500;79.99;99.99
+Marshall Stanmore II;Audio;Portable Speakers;4.6;12200;299.99;349.99
+Anker Soundcore Flare;Audio;Portable Speakers;4.7;12700;59.99;79.99
+Bang & Olufsen Beosound A1;Audio;Portable Speakers;4.8;13200;199.99;249.99
+Harman Kardon Onyx Studio 6;Audio;Portable Speakers;4.7;12900;149.99;199.99
+Bose SoundLink Micro;Audio;Portable Speakers;4.6;12400;99.99;129.99
+JBL Charge 4;Audio;Portable Speakers;4.7;12600;149.99;179.99
+Sony SRS-XB33;Audio;Portable Speakers;4.8;13100;129.99;149.99
+Canon EOS 5D Mark IV;Cameras;DSLR Cameras;4.8;11000;2499.99;2999.99
+Nikon D850;Cameras;DSLR Cameras;4.7;10500;2799.99;3299.99
+Canon EOS R;Cameras;Mirrorless Cameras;4.6;10000;1799.99;2299.99
+Sony Alpha a7 III;Cameras;Mirrorless Cameras;4.8;11500;1799.99;2299.99
+Fujifilm X-T4;Cameras;Mirrorless Cameras;4.7;10800;1599.99;1999.99
+Olympus OM-D E-M1 Mark III;Cameras;Mirrorless Cameras;4.6;10200;1499.99;1999.99
+Panasonic Lumix GH5;Cameras;Mirrorless Cameras;4.8;11200;1699.99;2199.99
+Sony Alpha a7R IV;Cameras;Mirrorless Cameras;4.9;12000;3199.99;3699.99
+Canon EOS R5;Cameras;Mirrorless Cameras;4.8;11700;3499.99;3999.99
+Nikon Z7 II;Cameras;Mirrorless Cameras;4.7;11100;2799.99;3299.99
+Fujifilm X-T30;Cameras;Mirrorless Cameras;4.6;10400;849.99;999.99
+Olympus Tough TG-6;Cameras;Compact Cameras;4.7;9500;399.99;449.99
+Sony RX100 VII;Cameras;Compact Cameras;4.8;10000;1199.99;1399.99
+Canon PowerShot G7 X Mark III;Cameras;Compact Cameras;4.7;9800;699.99;799.99
+Panasonic Lumix LX100 II;Cameras;Compact Cameras;4.6;9300;849.99;999.99
+Nikon COOLPIX W300;Cameras;Compact Cameras;4.7;9600;349.99;399.99
+Nike Air Max 270;Athletic Shoes;Running Shoes;4.8;13000;129.99;159.99
+Adidas Ultraboost 21;Athletic Shoes;Running Shoes;4.7;12500;159.99;189.99
+New Balance Fresh Foam 1080v11;Athletic Shoes;Running Shoes;4.6;12000;129.99;159.99
+Asics Gel-Nimbus 23;Athletic Shoes;Running Shoes;4.8;13500;139.99;169.99
+Brooks Ghost 13;Athletic Shoes;Running Shoes;4.7;12800;119.99;149.99
+Saucony Kinvara 12;Athletic Shoes;Running Shoes;4.6;12200;99.99;129.99
+Mizuno Wave Rider 24;Athletic Shoes;Running Shoes;4.7;12600;119.99;149.99
+Hoka One One Clifton 7;Athletic Shoes;Running Shoes;4.8;13200;129.99;159.99
+Puma Deviate Nitro;Athletic Shoes;Running Shoes;4.7;12900;129.99;159.99
+Reebok Floatride Energy 3;Athletic Shoes;Running Shoes;4.6;12400;89.99;119.99
+Under Armour HOVR Phantom 2;Athletic Shoes;Running Shoes;4.7;12700;119.99;149.99
+Salomon Sense Ride 4;Athletic Shoes;Trail Running Shoes;4.8;13100;119.99;149.99
+Merrel Moab 2 Vent;Athletic Shoes;Hiking Shoes;4.7;12300;99.99;129.99
+Keen Targhee III;Athletic Shoes;Hiking Shoes;4.6;12100;119.99;149.99
+Columbia Newton Ridge Plus II;Athletic Shoes;Hiking Shoes;4.7;12500;79.99;99.99
+Lego Star Wars Millennium Falcon;Building Sets;Star Wars;4.8;14000;799.99;999.99
+Lego Technic Lamborghini Sián FKP 37;Building Sets;Technic;4.7;13500;379.99;449.99
+Lego Creator Expert Bookshop;Building Sets;Creator Expert;4.6;13000;179.99;199.99
+Lego Star Wars AT-AT;Building Sets;Star Wars;4.8;14500;799.99;999.99
+Lego Harry Potter Hogwarts Castle;Building Sets;Harry Potter;4.7;13800;399.99;499.99
+Lego Marvel Avengers Tower Battle;Building Sets;Marvel;4.6;13200;89.99;109.99
+Lego Friends Heartlake City Park;Building Sets;Friends;4.7;12900;49.99;59.99
+Lego City Fire Station;Building Sets;City;4.8;13400;99.99;129.99
+Lego Ninjago City Gardens;Building Sets;Ninjago;4.9;14200;299.99;349.99
+Lego Disney Frozen II Arendelle Castle Village;Building Sets;Disney;4.7;13100;79.99;99.99
+Lego Ideas International Space Station;Building Sets;Ideas;4.6;12700;69.99;79.99
+Lego Architecture Trafalgar Square;Building Sets;Architecture;4.7;12600;79.99;99.99
+Lego Creator Expert Volkswagen T1 Camper Van;Building Sets;Creator Expert;4.8;13700;119.99;139.99
+Lego Star Wars The Razor Crest;Building Sets;Star Wars;4.9;14800;499.99;599.99
+Lego Marvel Infinity Gauntlet;Building Sets;Marvel;4.8;13900;69.99;79.99
+Amazon Echo Dot (4th Gen);Smart Home;Smart Speakers;4.8;15000;49.99;59.99
+Google Nest Mini;Smart Home;Smart Speakers;4.7;14500;49.99;59.99
+Amazon Echo Show 8;Smart Home;Smart Displays;4.6;14000;99.99;129.99
+Google Nest Hub;Smart Home;Smart Displays;4.7;13500;89.99;109.99
+Philips Hue White and Color Ambiance Starter Kit;Smart Home;Smart Lighting;4.8;14800;179.99;199.99
+Ring Video Doorbell 3;Smart Home;Smart Doorbell;4.7;13900;179.99;199.99
+Arlo Pro 4 Spotlight Camera;Smart Home;Security Cameras;4.6;13400;199.99;249.99
+Nest Learning Thermostat;Smart Home;Smart Thermostats;4.8;15200;249.99;299.99
+Samsung Galaxy Tab S7;Tablets;Android Tablets;4.7;12000;549.99;649.99
+Lenovo Tab P11 Pro;Tablets;Android Tablets;4.6;11500;449.99;549.99
+Microsoft Surface Pro 7;Tablets;Windows Tablets;4.8;13000;799.99;899.99
+Apple iPad Air;Tablets;iOS Tablets;4.9;14000;549.99;599.99
+Dyson Cyclone V10;Vacuums;Cordless Vacuums;4.8;12500;499.99;599.99
+Shark Navigator Lift-Away;Vacuums;Upright Vacuums;4.7;12000;179.99;229.99
+Miele Complete C3;Vacuums;Canister Vacuums;4.6;11500;699.99;799.99
+Dyson Ball Animal 2;Vacuums;Upright Vacuums;4.8;13000;399.99;499.99
+iRobot Roomba i7+;Vacuums;Robot Vacuums;4.7;12500;799.99;999.99
+Bissell CrossWave;Vacuums;Wet/Dry Vacuums;4.6;12000;249.99;299.99
+Hoover WindTunnel 2;Vacuums;Upright Vacuums;4.7;11500;149.99;199.99
+Eureka Mighty Mite;Vacuums;Canister Vacuums;4.8;13000;69.99;89.99
+Black+Decker Dustbuster;Vacuums;Handheld Vacuums;4.7;12500;39.99;49.99
+Dyson V8 Absolute;Vacuums;Cordless Vacuums;4.8;13500;349.99;449.99
+Shark ION F80;Vacuums;Cordless Vacuums;4.7;12800;249.99;349.99
+Bissell PowerFresh;Vacuums;Steam Mops;4.6;12200;89.99;119.99
+Hoover Power Scrub;Vacuums;Carpet Cleaners;4.8;13200;149.99;199.99
+Bissell SpotClean;Vacuums;Portable Cleaners;4.7;12700;119.99;149.99
+Shark Rotator Professional;Vacuums;Upright Vacuums;4.6;12400;249.99;349.99
+Broadway Show Tickets: Hamilton;Cultural Outings;Theater;4.9;15000;199.99;249.99
+Opera Tickets: La Traviata;Cultural Outings;Opera;4.8;14500;149.99;199.99
+Ballet Tickets: Swan Lake;Cultural Outings;Ballet;4.7;14000;129.99;179.99
+Symphony Tickets: Beethoven's 9th;Cultural Outings;Symphony;4.8;14800;99.99;149.99
+Museum Pass: The Met;Cultural Outings;Museums;4.7;13500;24.99;29.99
+Art Gallery Tour: MoMA;Cultural Outings;Art Galleries;4.6;13000;29.99;39.99
+Comedy Show Tickets: SNL;Cultural Outings;Comedy Shows;4.9;15500;79.99;99.99
+Jazz Concert Tickets: Blue Note;Cultural Outings;Jazz Concerts;4.8;14200;59.99;79.99
+Wine Tasting Tour: Napa Valley;Group Outings;Wine Tasting;4.7;13800;149.99;199.99
+Cooking Class: Italian Cuisine;Group Outings;Cooking Classes;4.6;13200;89.99;119.99
+Escape Room: The Heist;Group Outings;Escape Rooms;4.9;15200;29.99;39.99
+Paint and Sip Night;Group Outings;Art Classes;4.8;14700;39.99;49.99
+Hot Air Balloon Ride;Group Outings;Adventure Activities;4.7;13900;199.99;249.99
+Kayaking Tour: Hudson River;Group Outings;Water Sports;4.6;13400;49.99;69.99
+Hiking Tour: Grand Canyon;Group Outings;Hiking Tours;4.8;14900;79.99;99.99
+Spa Day Package;Birthday Gifts;Spa Packages;4.9;15100;149.99;199.99
+Personalized Jewelry: Necklace;Birthday Gifts;Jewelry;4.8;14600;79.99;99.99
+Gourmet Chocolate Box;Birthday Gifts;Gourmet Food;4.7;14100;29.99;39.99
+Custom Portrait;Birthday Gifts;Artwork;4.9;15300;99.99;149.99
+Luxury Watch;Birthday Gifts;Watches;4.8;14800;249.99;299.99
+Designer Handbag;Birthday Gifts;Handbags;4.7;14300;199.99;249.99
+High-End Perfume;Birthday Gifts;Fragrances;4.6;13700;79.99;99.99
+Custom Star Map;Birthday Gifts;Personalized Gifts;4.9;15400;39.99;49.99
+Experience Gift: Hot Air Balloon Ride;Birthday Gifts;Experience Gifts;4.8;14900;199.99;249.99
+Subscription Box: Beauty;Birthday Gifts;Subscription Boxes;4.7;14400;29.99;39.99
+Fitness Tracker: Fitbit Charge 5;Birthday Gifts;Fitness Gadgets;4.6;13900;129.99;149.99
+Custom Illustration;Birthday Gifts;Artwork;4.8;14700;69.99;89.99
+Luxury Robe;Birthday Gifts;Loungewear;4.9;15200;79.99;99.99
+Gourmet Coffee Set;Birthday Gifts;Gourmet Food;4.7;14500;49.99;59.99
+Personalized Photo Album;Birthday Gifts;Personalized Gifts;4.6;14000;39.99;49.99
+Wedding Planner Service;Wedding Gifts;Planning Services;4.9;15000;499.99;599.99
+Custom Wedding Invitations;Wedding Gifts;Stationery;4.8;14500;199.99;249.99
+Luxury Bedding Set;Wedding Gifts;Home Decor;4.7;14000;249.99;299.99
+High-End Kitchen Appliances;Wedding Gifts;Kitchen Appliances;4.9;15200;399.99;499.99
+Personalized Wedding Gifts;Wedding Gifts;Personalized Gifts;4.8;14700;79.99;99.99
+Honeymoon Travel Package;Wedding Gifts;Travel Packages;4.7;14200;999.99;1299.99
+Custom Wedding Jewelry;Wedding Gifts;Jewelry;4.6;13700;149.99;199.99
+Luxury Bath Towels;Wedding Gifts;Home Decor;4.9;15300;99.99;149.99
+Gourmet Food Basket;Wedding Gifts;Gourmet Food;4.8;14800;79.99;99.99
+Personalized Wedding Album;Wedding Gifts;Personalized Gifts;4.7;14300;129.99;179.99
+Wedding Keepsake Box;Wedding Gifts;Keepsakes;4.6;13800;49.99;69.99
+Custom Wedding Portrait;Wedding Gifts;Artwork;4.9;15400;199.99;249.99
+Luxury Candle Set;Wedding Gifts;Home Decor;4.8;14900;49.99;69.99
+Personalized Wedding Vows Book;Wedding Gifts;Stationery;4.7;14400;39.99;49.99
+High-End Wine Set;Wedding Gifts;Gourmet Food;4.6;13900;99.99;129.99
+Custom Wedding Guest Book;Wedding Gifts;Stationery;4.8;14600;59.99;79.99
+Luxury Spa Gift Set;Anniversary Gifts;Spa Gifts;4.9;15100;79.99;99.99
+Personalized Anniversary Jewelry;Anniversary Gifts;Jewelry;4.8;14600;149.99;199.99
+Gourmet Chocolate and Wine Basket;Anniversary Gifts;Gourmet Food;4.7;14100;69.99;89.99
+Custom Anniversary Portrait;Anniversary Gifts;Artwork;4.9;15300;129.99;179.99
+Luxury Watch for Him;Anniversary Gifts;Watches;4.8;14800;299.99;349.99
+Designer Handbag for Her;Anniversary Gifts;Handbags;4.7;14300;249.99;299.99
+High-End Perfume Set;Anniversary Gifts;Fragrances;4.6;13700;149.99;199.99
+Custom Star Map of Wedding Date;Anniversary Gifts;Personalized Gifts;4.9;15400;49.99;69.99
+Experience Gift: Couple's Massage;Anniversary Gifts;Experience Gifts;4.8;14900;149.99;199.99
+Subscription Box: Date Night;Anniversary Gifts;Subscription Boxes;4.7;14400;39.99;49.99
+Fitness Tracker for Couples;Anniversary Gifts;Fitness Gadgets;4.6;13900;199.99;249.99
+Custom Illustration of Wedding Photo;Anniversary Gifts;Artwork;4.8;14700;99.99;149.99
+Luxury Robes for Couples;Anniversary Gifts;Loungewear;4.9;15200;149.99;199.99
+Gourmet Coffee and Tea Set;Anniversary Gifts;Gourmet Food;4.7;14500;59.99;79.99
+Personalized Photo Album of Memories;Anniversary Gifts;Personalized Gifts;4.6;14000;49.99;69.99
+Broadway Show Tickets: The Lion King;Cultural Outings;Theater;4.9;15000;179.99;229.99
+Opera Tickets: Carmen;Cultural Outings;Opera;4.8;14500;129.99;179.99
+Ballet Tickets: The Nutcracker;Cultural Outings;Ballet;4.7;14000;109.99;159.99
+Symphony Tickets: Mozart's Requiem;Cultural Outings;Symphony;4.8;14800;89.99;139.99
+Museum Pass: Louvre;Cultural Outings;Museums;4.7;13500;19.99;24.99
+Art Gallery Tour: Tate Modern;Cultural Outings;Art Galleries;4.6;13000;24.99;29.99
+Comedy Show Tickets: The Daily Show;Cultural Outings;Comedy Shows;4.9;15500;69.99;89.99
+Jazz Concert Tickets: Jazz at Lincoln Center;Cultural Outings;Jazz Concerts;4.8;14200;49.99;69.99
+Wine Tasting Tour: Bordeaux;Group Outings;Wine Tasting;4.7;13800;129.99;179.99
+Cooking Class: French Cuisine;Group Outings;Cooking Classes;4.6;13200;79.99;109.99
+Escape Room: The Prison Break;Group Outings;Escape Rooms;4.9;15200;24.99;34.99
+Paint and Sip Night: Landscapes;Group Outings;Art Classes;4.8;14700;34.99;44.99
+Hot Air Balloon Ride: Cappadocia;Group Outings;Adventure Activities;4.7;13900;179.99;229.99
+Kayaking Tour: Colorado River;Group Outings;Water Sports;4.6;13400;39.99;59.99
+Hiking Tour: Yosemite National Park;Group Outings;Hiking Tours;4.8;14900;69.99;89.99
+Spa Day Package: Couple's Retreat;Birthday Gifts;Spa Packages;4.9;15100;249.99;299.99
+Personalized Jewelry: Bracelet;Birthday Gifts;Jewelry;4.8;14600;69.99;89.99
+Gourmet Cheese Board;Birthday Gifts;Gourmet Food;4.7;14100;24.99;34.99
+Custom Caricature;Birthday Gifts;Artwork;4.9;15300;89.99;139.99
+Luxury Sunglasses;Birthday Gifts;Accessories;4.8;14800;149.99;199.99
+Designer Wallet;Birthday Gifts;Accessories;4.7;14300;99.99;129.99
+High-End Cologne;Birthday Gifts;Fragrances;4.6;13700;69.99;89.99
+Custom Birthstone Necklace;Birthday Gifts;Personalized Gifts;4.9;15400;49.99;69.99
+Experience Gift: Cooking Class;Birthday Gifts;Experience Gifts;4.8;14900;79.99;99.99
+Subscription Box: Snacks;Birthday Gifts;Subscription Boxes;4.7;14400;24.99;34.99
+Fitness Tracker: Garmin Vivosmart 4;Birthday Gifts;Fitness Gadgets;4.6;13900;99.99;129.99
+Custom Pet Portrait;Birthday Gifts;Artwork;4.8;14700;59.99;79.99
+Luxury Pajama Set;Birthday Gifts;Loungewear;4.9;15200;69.99;89.99
+Gourmet Tea Set;Birthday Gifts;Gourmet Food;4.7;14500;39.99;49.99
+Personalized Birthday Cake Topper;Birthday Gifts;Personalized Gifts;4.6;14000;19.99;29.99
+Wedding Planner Service: Destination Wedding;Wedding Gifts;Planning Services;4.9;15000;799.99;999.99
+Custom Wedding Invitations: Foil Pressed;Wedding Gifts;Stationery;4.8;14500;249.99;299.99
+Luxury Bedding Set: Egyptian Cotton;Wedding Gifts;Home Decor;4.7;14000;299.99;349.99
+High-End Kitchen Appliances: Espresso Machine;Wedding Gifts;Kitchen Appliances;4.9;15200;499.99;599.99
+Personalized Wedding Gifts: Engraved Compact Mirror;Wedding Gifts;Personalized Gifts;4.8;14700;29.99;39.99
+Honeymoon Travel Package: Bora Bora;Wedding Gifts;Travel Packages;4.7;14200;1499.99;1799.99
+Custom Wedding Jewelry: Engraved Cufflinks;Wedding Gifts;Jewelry;4.6;13700;99.99;129.99
+Luxury Bath Towels: Turkish Cotton;Wedding Gifts;Home Decor;4.9;15300;129.99;179.99
+Gourmet Food Basket: Italian Delights;Wedding Gifts;Gourmet Food;4.8;14800;99.99;129.99
+Personalized Wedding Album: Leather Bound;Wedding Gifts;Personalized Gifts;4.7;14300;179.99;229.99
+Wedding Keepsake Box: Personalized;Wedding Gifts;Keepsakes;4.6;13800;59.99;79.99
+Custom Wedding Portrait: Watercolor;Wedding Gifts;Artwork;4.9;15400;179.99;229.99
+Luxury Candle Set: Scented;Wedding Gifts;Home Decor;4.8;14900;59.99;79.99
+Personalized Wedding Vows Book: Leather;Wedding Gifts;Stationery;4.7;14400;49.99;69.99
+High-End Wine Set: Red and White;Wedding Gifts;Gourmet Food;4.6;13900;129.99;179.99
+Custom Wedding Guest Book: Engraved;Wedding Gifts;Stationery;4.8;14600;69.99;89.99
+Luxury Spa Gift Set: For Couples;Anniversary Gifts;Spa Gifts;4.9;15100;99.99;129.99
+Personalized Anniversary Jewelry: Engraved Ring;Anniversary Gifts;Jewelry;4.8;14600;199.99;249.99
+Gourmet Chocolate and Wine Basket: Anniversary Edition;Anniversary Gifts;Gourmet Food;4.7;14100;79.99;99.99
+Custom Anniversary Portrait: Digital Art;Anniversary Gifts;Artwork;4.9;15300;149.99;199.99
+Luxury Watch for Him: Chronograph;Anniversary Gifts;Watches;4.8;14800;349.99;399.99
+Designer Handbag for Her: Leather;Anniversary Gifts;Handbags;4.7;14300;299.99;349.99
+High-End Perfume Set: Designer;Anniversary Gifts;Fragrances;4.6;13700;179.99;229.99
+Custom Star Map of Anniversary Date;Anniversary Gifts;Personalized Gifts;4.9;15400;59.99;79.99
+Experience Gift: Hot Air Balloon Ride for Two;Anniversary Gifts;Experience Gifts;4.8;14900;249.99;299.99
+Subscription Box: Wine Club;Anniversary Gifts;Subscription Boxes;4.7;14400;49.99;59.99
+Fitness Tracker for Couples: Apple Watch;Anniversary Gifts;Fitness Gadgets;4.6;13900;299.99;349.99
+Custom Illustration of Anniversary Photo;Anniversary Gifts;Artwork;4.8;14700;129.99;179.99
+Luxury Robes for Couples: Silk;Anniversary Gifts;Loungewear;4.9;15200;179.99;229.99
+Gourmet Coffee and Tea Set: Anniversary Blend;Anniversary Gifts;Gourmet Food;4.7;14500;69.99;89.99
+Personalized Photo Album of Anniversary Memories;Anniversary Gifts;Personalized Gifts;4.6;14000;59.99;79.99
