@@ -5,7 +5,7 @@ import os
 from app.chatbot import GiftChatbot
 from app.storage import DataStorage
 from app.ui import UI
-from app.config import CREDENTIALS_PATH, LOGGING_CONFIG
+from app.config import LOGGING_CONFIG
 from app.data_loader import DataLoader
 from app.rag_engine import RAGEngine
 
