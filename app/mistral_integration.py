@@ -120,15 +120,3 @@ def main():
 # Run the script
 if __name__ == "__main__":
     main()
-    
-    
-from mistral_integration import chat_with_mistral
-
-test_conversation = [
-    {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": "Suggest a gift for my father."}
-]
-
-response = chat_with_mistral(test_conversation)
-print("Response from Mistral:", response)
-# %%

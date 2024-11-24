@@ -1,31 +1,29 @@
-from mistral_integration import chat_with_mistral  # Import your Mistral integration
+# chatbot.py
+from mistralai import Mistral
+import os
+from dotenv import load_dotenv
 
-def chatbot_response(user_input, chat_history):
-    """
-    Handles user input and generates a response using the Mistral LLM.
-    
-    Args:
-        user_input (str): The user's input message.
-        chat_history (list): The conversation history (list of tuples).
-    
-    Returns:
-        tuple: An empty string (clears the input field) and the updated chat history.
-    """
-    # Add the user's input to the chat history
-    chat_history.append(("User", user_input))
-    
-    # Create a conversation context for the Mistral API
-    conversation = [{"role": "system", "content": "You are a helpful assistant."}]  # System role
-    conversation.extend([{"role": "user" if i % 2 == 0 else "assistant", "content": message[1]} 
-                         for i, message in enumerate(chat_history)])
-    conversation.append({"role": "user", "content": user_input})  # Add current user input
-    
-    # Get a response from Mistral
-    try:
-        response = chat_with_mistral(conversation)
-    except Exception as e:
-        response = f"An error occurred while processing your request: {e}"
-    
-    # Add the response to the chat history
-    chat_history.append(("Assistant", response))
-    return "", chat_history
+class GiftChatbot:
+    def __init__(self):
+        load_dotenv()
+        self.client = Mistral(api_key=os.getenv("MISTRAL_API_KEY"))
+        self.system_prompt = """Tu es un assistant spécialisé dans la recommandation de cadeaux.
+        Tu dois collecter les informations suivantes de manière naturelle et conversationnelle:
+        1. Description de la personne
+        2. Fourchette de prix
+        3. Type de produits/services préférés
+        4. Centres d'intérêt
+        5. Contexte (anniversaire, Noël, mariage, etc.)
+        
+        Pose une question à la fois. Une fois toutes les informations collectées,
+        propose 4 idées de cadeaux pertinentes."""
+
+    def get_response(self, messages):
+        try:
+            chat_response = self.client.chat.complete(
+                model="mistral-small-latest",
+                messages=messages
+            )
+            return chat_response.choices[0].message.content
+        except Exception as e:
+            return f"Erreur avec l'API Mistral: {e}"

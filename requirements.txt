@@ -1,4 +1,9 @@
-gradio
-requests
-python-dotenv
 mistralai
+streamlit
+python-dotenv
+gspread
+oauth2client
+pandas
+pytest
+pytest-mock
+pytest-cov
