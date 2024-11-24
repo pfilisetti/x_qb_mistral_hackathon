@@ -2,4 +2,6 @@
 credentials.json
 *.log
 __pycache__/
-*.pyc
+*.pyc.DS_Store
+.DS_Store
+.DS_Store
