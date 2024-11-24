@@ -1,9 +1,10 @@
-# ui.py
 import streamlit as st
+from app.data_loader import DataLoader
 
 class UI:
     @staticmethod
     def set_page_config():
+        """Configure la page Streamlit."""
         st.set_page_config(
             page_title="KdostraI - Assistant Cadeaux",
             page_icon="🎁",
@@ -11,21 +12,15 @@ class UI:
         )
 
     @staticmethod
-    def load_css():
-        st.markdown("""
-            <style>
-            /* Your CSS styles here */
-            </style>
-        """, unsafe_allow_html=True)
-
-    @staticmethod
     def display_header():
+        """Affiche le header de l'application."""
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
             st.image("https://i.imgur.com/jhYA0PZ.png", width=300)
 
     @staticmethod
     def display_filters(session_state):
+        """Affiche les filtres de recherche."""
         if st.button("Plus de filtres", key="toggle_filters"):
             session_state.show_filters = not session_state.show_filters
         
@@ -46,3 +41,56 @@ class UI:
                     "Cadeau personnalisé (objet gravé, photo personnalisée, etc.)"
                 ],
             )
+
+    @staticmethod
+    def display_categories(data_loader):
+        """Affiche les catégories disponibles."""
+        try:
+            categories = data_loader.get_categories()
+            if categories['main_categories']:
+                st.sidebar.markdown("### Catégories")
+                selected = st.sidebar.multiselect(
+                    "Filtrer par catégorie",
+                    options=categories['main_categories']
+                )
+                return selected
+        except Exception as e:
+            st.sidebar.warning("Impossible de charger les catégories")
+            return []
+
+    @staticmethod
+    def display_price_filter(data_loader):
+        """Affiche le filtre de prix."""
+        try:
+            min_price, max_price = data_loader.get_price_range()
+            st.sidebar.markdown("### Prix")
+            price_range = st.sidebar.slider(
+                "Fourchette de prix (€)",
+                min_value=float(min_price),
+                max_value=float(max_price),
+                value=(float(min_price), float(max_price/2))
+            )
+            return price_range
+        except Exception as e:
+            st.sidebar.warning("Impossible de charger les prix")
+            return (0, 1_000_000)
+
+    @staticmethod
+    def display_error(message: str):
+        """Affiche un message d'erreur."""
+        st.error(message)
+
+    @staticmethod
+    def display_success(message: str):
+        """Affiche un message de succès."""
+        st.success(message)
+
+    @staticmethod
+    def display_info(message: str):
+        """Affiche un message d'information."""
+        st.info(message)
+
+    @staticmethod
+    def display_warning(message: str):
+        """Affiche un message d'avertissement."""
+        st.warning(message)
