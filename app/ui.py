@@ -68,7 +68,7 @@ class UI:
                 "Fourchette de prix (€)",
                 min_value=float(min_price),
                 max_value=float(max_price),
-                value=(float(min_price), float(max_price/2))
+                value=(float(min_price), float(max_price))
             )
             return price_range
         except Exception as e:
