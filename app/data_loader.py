@@ -3,7 +3,7 @@ import os
 from typing import Optional
 
 class DataLoader:
-    def __init__(self, data_path: str = "data/gift_dataset.csv"):
+    def __init__(self, data_path: str = "data/data_gifts.csv"):
         self.data_path = data_path
 
     def load_amazon_dataset(self) -> Optional[pd.DataFrame]:
