@@ -2,7 +2,6 @@ import streamlit as st
 import uuid
 import logging.config
 import os
-from datetime import datetime
 from app.chatbot import GiftChatbot
 from app.storage import DataStorage
 from app.ui import UI
