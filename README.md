@@ -36,3 +36,10 @@ Ce projet vise à créer une web application permettant d'aider les utilisateurs
 - **Python** : Langage principal pour la logique du backend.
 - **Pandas** : Utilisé pour la gestion des données des produits.
 - **Modèle de ChatBot (Mistral)** : Utilisé pour générer les questions et suggestions de produits.
+
+### Notice d'utilisation du code :
+
+Afin de faire fonctionner correctement le code, ouvrir la console et exécuter le fichier main.py
+Dans le terminal, inscrire la mention streamlit run main.py
+L'application web s'ouvrira alors dans votre navigateur.
+
