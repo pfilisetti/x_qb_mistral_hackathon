@@ -2,12 +2,12 @@ import streamlit as st
 import uuid
 import logging.config
 import os
-from app.chatbot import GiftChatbot
-from app.storage import DataStorage
-from app.ui import UI
-from app.config import LOGGING_CONFIG
-from app.data_loader import DataLoader
-from app.rag_engine import RAGEngine
+from x_qb_mistral_hackathon.chatbot import GiftChatbot
+from x_qb_mistral_hackathon.storage import DataStorage
+from x_qb_mistral_hackathon.ui import UI
+from x_qb_mistral_hackathon.config import LOGGING_CONFIG
+from x_qb_mistral_hackathon.data_loader import DataLoader
+from x_qb_mistral_hackathon.rag_engine import RAGEngine
 
 # Setup logging
 logging.config.dictConfig(LOGGING_CONFIG)
@@ -17,7 +17,7 @@ def initialize_rag_components():
     """Initialize RAG system and chatbot with enhanced error handling."""
     try:
         with st.spinner('Chargement de la base de données des produits...'):
-            # Initialize data loader w>>ith debug info
+            # Initialize data loader with debug info
             logger.info("Starting RAG components initialization")
             data_loader = DataLoader()
 
@@ -80,7 +80,7 @@ def initialize_session_state():
             'user_id': str(uuid.uuid4()),
             'messages': [],
             'show_filters': False,
-            'price_range': (0, 1_000_000),
+            'price_range': (0.0, 1000000.0),
             'gift_type': None,
             'recommendations': [],
             'rag_initialized': False,

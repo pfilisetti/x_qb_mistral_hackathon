@@ -1,9 +1,0 @@
-mistralai
-streamlit
-python-dotenv
-pandas
-pytest
-pytest-mock
-pytest-cov
-sentence-transformers>=2.2.2
-chromadb>=0.4.0

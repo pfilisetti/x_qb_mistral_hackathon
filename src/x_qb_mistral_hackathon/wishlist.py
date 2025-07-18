@@ -1,5 +1,3 @@
-# app/wishlist.py
-
 wishlist = []
 
 def add_to_wishlist(item):
