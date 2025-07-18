@@ -1,5 +1,4 @@
 
-# %%
 import os
 from mistralai import Mistral
 from dotenv import load_dotenv
@@ -11,8 +10,6 @@ MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 MODEL = "mistral-small-latest"
 
 print(f"Loaded API key: {MISTRAL_API_KEY[:5]}****")  # Partial key for security
-
-# %%
 
 # Initialize the Mistral client
 client = Mistral(api_key=MISTRAL_API_KEY)

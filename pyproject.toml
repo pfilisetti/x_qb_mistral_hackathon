@@ -1,0 +1,25 @@
+[project]
+name = "x_qb_mistral_hackathon"
+version = "0.1.0"
+description = "Hackathon organised by École polytechnique (X) with MistralAI and QuantumBlack (McKinsey)"
+authors = [
+    {name = "Paul Filisetti",email = "paul@filisetti.org"}
+]
+readme = "README.md"
+requires-python = ">3.9.7"
+dependencies = [
+    "mistralai (>=1.9.2,<2.0.0)",
+    "streamlit (>=1.47.0,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "pytest (>=8.4.1,<9.0.0)",
+    "pytest-mock (>=3.14.1,<4.0.0)",
+    "pytest-cov (>=6.2.1,<7.0.0)",
+    "sentence-transformers (>=5.0.0,<6.0.0)",
+    "chromadb (>=1.0.15,<2.0.0)",
+    "watchdog (>=6.0.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

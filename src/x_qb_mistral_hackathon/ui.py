@@ -1,5 +1,5 @@
 import streamlit as st
-from app.data_loader import DataLoader
+from x_qb_mistral_hackathon.data_loader import DataLoader
 
 class UI:
     @staticmethod
